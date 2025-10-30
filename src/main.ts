@@ -4,21 +4,138 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
+     <div class="container-principal">
+        <div class="container-lateral">
+            <h1>Container</h1>
+            <h1>Container</h1>
+        </div>
+        <div class="container-central">
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+          <div class="comp-filho">
+            <h1>Eu sou o douglas</h1>
+          </div>
+        </div>
     </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
+   
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
